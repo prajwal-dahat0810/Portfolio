@@ -53,7 +53,7 @@ const Projects: Project[] = [
     githubLink: "https://github.com/prajwal-dahat0810/Medium-blog-website.git",
   },
   {
-    title: "Smalles AI",
+    title: "Smallest AI",
     description:
       "Build a Frontend clone Smallest AI Landing Page  in which  AI uses voice Enabling hyper-personalized AI interactions at population scale.",
     projectDescription:

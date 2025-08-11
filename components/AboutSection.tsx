@@ -86,7 +86,7 @@ export const AboutSection = () => {
               <div className="flex flex-col items-center justify-center gap-2">
                 <div className="flex flex-col custom-font max-sm:items-start   items-start gap-2">
                   <span className="dark:text-[#efeeeb76] text-[#343333]">
-                    Changrabagabai Pakode Vidyalaya,Mangrul Dastagir
+                    Chandrabagabai Pakode Vidyalaya,Mangrul Dastagir
                   </span>{" "}
                   <span className="text-[#605e5e] text-xs dark:text-[#efeeeb76]">
                     {" "}
