@@ -66,6 +66,14 @@ const socialLinks = [
 export const HeaderSection = () => {
   return (
     <div id="header" className=" flex  flex-col items-start w-full h-full">
+      <div className="w-full mt-7 flex justify-center items-center">
+        <div className="inline-flex items-center px-4 py-2 rounded-full border border-gray-300 dark:border-gray-700">
+          <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse mr-3"></div>
+          <span className="text-sm font-medium text-gray-700 dark:text-gray-300">
+            Currently Open to Work
+          </span>
+        </div>
+      </div>
       <div className="relative flex flex-col-reverse items-center justify-between w-full py-12 lg:py-16 lg:flex-row">
         <div className="flex flex-col items-center justify-between max-w-lg lg:items-start p-0 lg:pr-8">
           <div className=" lg:text-xl flex md:flex-row flex-col  items-center justify-center  text-[#08090A] dark:text-white  font-semibold">

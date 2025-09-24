@@ -56,7 +56,7 @@ export function AppBar() {
             variant="secondary"
             size="icon"
             onClick={() => setTheme("dark")}
-            className=" size-8 sr-only lg:not-sr-only "
+            className="cursor-pointer size-8 sr-only lg:not-sr-only "
           >
             <MoonStar />
           </Button>
@@ -65,7 +65,7 @@ export function AppBar() {
             variant="secondary"
             size="icon"
             onClick={() => setTheme("light")}
-            className=" size-8 sr-only lg:not-sr-only "
+            className="cursor-pointer size-8 sr-only lg:not-sr-only "
           >
             <Sun />
           </Button>
@@ -99,10 +99,10 @@ export function AppBar() {
                 variant="secondary"
                 size="icon"
                 onClick={() => setTheme(theme === "light" ? "dark" : "light")}
-                className="size-8 transition-transform duration-300 ease-in-out rotate-360"
+                className="size-8  transition-transform duration-300 ease-in-out rotate-360"
               >
                 <span
-                  className={` transition-transform duration-1000 ease-in-out ${
+                  className={`cursor-pointer transition-transform duration-1000 ease-in-out ${
                     theme === "light" ? "rotate-0" : "rotate-380"
                   }`}
                 >

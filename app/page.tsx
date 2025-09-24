@@ -27,6 +27,7 @@ export default function Home() {
       <AppBar />
       <div className="flex  w-full px-2 py-3 flex-col mt-20 max-w-3xl h-full  items-center justify-start ">
         <HeaderSection />
+        
         <ProjectSection />
         <AboutSection />
         <ContactSection />
