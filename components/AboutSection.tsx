@@ -24,21 +24,21 @@ export const AboutSection = () => {
       >
         <div
           //   className="shiny-text mt-3 custom-class dark:text-[#efeeeb76] text-[#343333] text-base sm:text-lg leading-relaxed tracking-wide mb-6 text-center sm:text-left px-12 ">
-          className="scroll-m-20 mt-5 custom-font lg:text-left font-normal    animate-shiver px-8  md:px-16 lg:px-24 text-center max-sm:text-sm text-wrap"
+          className="scroll-m-20   mt-5 custom-font lg:text-left font-normal    animate-shiver px-8  md:px-16 lg:px-24 text-center max-sm:text-sm text-wrap"
         >
-          <p>
+          <p className="tracking-[0.3]">
             I completed my B.Tech in Information Technology from{" "}
             <a href="https://www.pimpri-chinchwadcollegeofengineering.com/"></a>
             <span className="text-[#c7c4b876] font-[500] underline">
               Government College of Engineering, Amravati in 2025
             </span>
           </p>
-          <p>
+          <p className="tracking-[0.4] ">
             Full Stack Engineer building fast, functional web experiences with
             Next.js, TS, Postgres, Framer Motion. I am a software developer
             passionate about crafting dynamic and user-centric web apps.
           </p>
-          <p className="max-sm:sr-only">
+          <p className="max-sm:sr-only tracking-[0.4]">
             {" "}
             With experience in modern technologies, I thrive on building
             scalable and intuitive web solutions. I embrace challenges as

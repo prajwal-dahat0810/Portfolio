@@ -80,7 +80,7 @@ export const ContactSection = () => {
             <Image
               src={"/pimage.png"}
               alt={"image"}
-              className="rounded-md max-sm:h-full"
+              className="rounded-md max-sm:h-full hover:scale-105 transition-transform duration-300 ease-in-out"
               fill
               style={{ objectFit: "cover" }}
             ></Image>
@@ -335,9 +335,9 @@ export const ContactSection = () => {
                       viewBox="0 0 24 24"
                       fill="none"
                       stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                       className="icon icon-tabler icons-tabler-outline icon-tabler-mail"
                     >
                       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
@@ -357,7 +357,7 @@ export const ContactSection = () => {
             <Image
               src={"/about_image.png"}
               alt={"image"}
-              className="rounded-md "
+              className="rounded-md max-sm:h-full hover:scale-102 transition-transform duration-300 ease-in-out"
               fill
               style={{ objectFit: "cover" }}
             ></Image>
